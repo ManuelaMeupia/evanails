@@ -1,34 +1,127 @@
-.navStyle{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navStyle {
     background-color: pink;
     width: 100%;
-    height: 150px ;
     position: fixed;
-     /* display:flex ; 
-     justify-content: space-between;  */
-
-}
-.inputSearch{margin: 0 auto;
+    top: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    transform: translateY(-70px);
-    border-radius: 5px;
-    padding: 0.4rem;
-    width: 70%;
-    max-width: 400px;
-    border: 1px solid #f8a0c9;
-}
-.logoStyle{
-    height: 120px;
-    width: 120px;
-}
-.welcomeStyle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-80px);
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
-@media screen and (max-width: 700px) {
+.logoStyle {
+    height: 100px;
+    width: auto;
+}
+
+/* .welcomeStyle {
+    font-weight: 500;
+    color: #d81b60;
+    font-size: 1.1rem;
+    white-space: nowrap;
+} */
+
+.lienMenu {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; 
+    margin-right: 400px;
+
+}
+
+.inputSearch {
+    border-radius: 25px;
+    padding: 10px 15px;
+    width: 250px;
+    border: 1px solid #ff80ab;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.inputSearch:focus {
+    width: 300px; 
+}
+
+.lienNav {
+    text-decoration: none;
+    color: #d81b60;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.lienNav:hover {
+    color: #a0204d;
+}
+
+.btnMenu {
+    display: none;
+}
+
+.titre {
+     font-size: 1.8rem;
+            font-weight: 700;
+            color: #d81b60;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .navStyle {
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: space-between;
+        display: flex;
+    }
     
+    .logoStyle {
+        height: 80px;
+    }
+
+    .welcomeStyle {
+       
+    }
+
+    .lienMenu {
+        /* flex-direction: column;  */
+        width: 100%;
+        display: none; 
+        margin-top: 1rem;
+    }
+
+    .lienMenu.open {
+        display: flex;
+        background-color: pink;
+    }
+
+    .inputSearch {
+        width: 70%;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .lienNav {
+        width: 100%;
+        text-align: center;
+        padding: 0.75rem 0;
+        border-top: 1px solid #ffc0cb;
+        /* margin-left: 0; */
+    }
+
+    .btnMenu {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #d81b60;
+    }
 }
