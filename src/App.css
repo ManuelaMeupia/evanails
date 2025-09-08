@@ -1,3 +1,6 @@
 .App{
   background-color: pink;
 }
+html {
+    scroll-behavior: smooth;
+}
