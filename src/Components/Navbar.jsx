@@ -16,9 +16,9 @@ function Navbar(){
             <button className="btnMenu" onClick={Menu}>☰</button>
             <div className={`lienMenu ${isOpen ? 'open' : ''}`}>
                 <a href="#accueil"  className='lienNav'>Accueil</a>
-                <a href="#contacter" className='lienNav'>Nous contacter</a>
-                <a href="#services" className='lienNav'>Services</a>
-                <a href="#galerie" className='lienNav'>Galerie</a> <br></br>
+                <a href="#galerie" className='lienNav'>Galerie</a>
+                 <a href="#services" className='lienNav'>Services</a>
+                <a href="#contacter" className='lienNav'>Nous contacter</a> <br></br>
             </div>       
             <div className='btnAuth'>
                 <div>
@@ -29,6 +29,8 @@ function Navbar(){
                 </div>
             </div>
         </nav>
+
+        
     )
 }
 

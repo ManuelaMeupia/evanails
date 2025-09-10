@@ -32,3 +32,18 @@
     border-radius: 50px;
     font-size: 18px;
 }
+.imgStyle{
+    height: 300px;
+    width: auto;
+   
+}
+.tableauImg{
+    
+}
+.tableau-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
