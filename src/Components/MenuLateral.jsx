@@ -4,7 +4,7 @@ import './MenuLateralStyle.css';
 
 function MenuLateral(){
 
-     const Gallerie = [
+     const Galerie = [
         {
             id:1,
             nom:'Construction gel',
@@ -264,20 +264,20 @@ function MenuLateral(){
             prix: 5000,
             couleur: 'or, rose'
         },
-    //    {
-    //         id:1,
-    //         nom:'Construction gel',
-    //         image:'/img/img38.jpg',
-    //         prix: 5000,
-    //         couleur: 'or, rose'
-    //     },
-    //      {
-    //         id:1,
-    //         nom:'Construction gel',
-    //         image:'/img/img39.jpg',
-    //         prix: 5000,
-    //         couleur: 'or, rose'
-    //     },
+       {
+            id:1,
+            nom:'Construction gel',
+            image:'/img/img38.jpg',
+            prix: 5000,
+            couleur: 'or, rose'
+        },
+         {
+            id:1,
+            nom:'Construction gel',
+            image:'/img/img39.jpg',
+            prix: 5000,
+            couleur: 'or, rose'
+        },
        
     ]
 
@@ -293,10 +293,10 @@ function MenuLateral(){
                 <br /><br /><br /><br /><br /><br />
             </section>
 
-            <section id="galerie">
-                <h1>Galerie</h1>
+            <section id="galerie" className='galerieStyle'>
+                <h1 className='galerieh1'>Galerie</h1>
                 <div className="tableau-body">
-                    {Gallerie.map((nails) => (
+                    {Galerie.map((nails) => (
                         <div key={nails.id} className="tableau-row">
                             <div className="tableauImg">
                                 <img src={nails.image} alt={nails.nom} className='imgStyle' />
@@ -309,27 +309,38 @@ function MenuLateral(){
                 </div>
             </section>
 
-            <section id="services">
-                <div className='serviceStyle'> 
-                    <h3>Pedicure</h3>
+            <section id="services" className='services'>
+                <h1 className='serviceh1'>Services</h1>
+                <div className='serviceStyle'>
+                     <div className='service'> 
+                        <h3>Pedicure</h3>
+                    </div>
+                    <div className='service'> 
+                        <h3>Manicure</h3>
+                    </div>
+                    <div className='service'> 
+                        <h3>Coiffure</h3>
+                    </div>
+                    <div className='service'> 
+                        <h3>make Up</h3>
+                    </div>
                 </div>
-                <div className='serviceStyle'> 
-                    <h3>Manicure</h3>
-                </div>
-                <div className='serviceStyle'> 
-                    <h3>Coiffure</h3>
-                </div>
-                <div className='serviceStyle'> 
-                    <h3>make Up</h3>
-                </div>
+               
             </section>
 
-            <section id="contacter">
-                <div>
-                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                    <p>
-                        wdnjdcbe
-                    </p>
+            <section id="contacter" className='contacterStyle'>
+                <h1>Nous contacter</h1>
+                <div className='newspaper'>
+                    <label htmlFor="" >Nom et Prenom:</label>
+                    <input type="text" required/>
+                    <label htmlFor="">Adresse mail:</label>
+                    <input type="text" required/>
+                    <label htmlFor="">Numero de telephone:</label>
+                    <input type="text" required/>
+                    <label htmlFor="">Votre message:</label>
+                    <textarea name="" id=""></textarea>
+                    <button type="button">Envoyer</button>
+                    <p>Nous recevrons votre demande</p>
                 </div>
             </section>
 

@@ -47,3 +47,24 @@
     flex-wrap: wrap; 
     gap: 20px;
 }
+.serviceStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+.services{
+    background-color: rgb(252, 223, 237);
+}
+.service{
+    background-color: pink;
+    width: 220px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.contacterStyle{
+    display: flex;
+}
