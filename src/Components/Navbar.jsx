@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import {AiFillHome} from 'react-icons/ai';
+import {IoMdPhotos, IoMdMail } from 'react-icons/io';
+import {MdCleaningServices } from 'react-icons/md';
 
 import './NavbarStyle.css';
 
@@ -15,16 +18,16 @@ function Navbar(){
             <span className='titre'>EvaNails 💅</span>
             <button className="btnMenu" onClick={Menu}>☰</button>
             <div className={`lienMenu ${isOpen ? 'open' : ''}`}>
-                <a href="#accueil"  className='lienNav'>Accueil</a>
-                <a href="#galerie" className='lienNav'>Galerie</a>
-                 <a href="#services" className='lienNav'>Services</a>
-                <a href="#contacter" className='lienNav'>Nous contacter</a> <br></br>
+                <a href="#accueil"  className='lienNav'> <AiFillHome className='icon'/>Accueil</a>
+                <a href="#galerie" className='lienNav'> <IoMdPhotos className='icon'/>Galerie</a>
+                <a href="#services" className='lienNav'> <MdCleaningServices className='icon'/>Services</a>
+                <a href="#contacter" className='lienNav'><IoMdMail className='icon'/>Contacter</a>
             </div>       
             <div className='btnAuth'>
-                <div>
+                <div className='login1'>
                     <p>Inscription</p>
                 </div>
-                 <div>
+                 <div className='login2'>
                     <p>Connexion</p>
                 </div>
             </div>
