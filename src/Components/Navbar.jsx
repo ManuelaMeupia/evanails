@@ -22,7 +22,7 @@ function Navbar(){
                 <a href="#galerie" className='lienNav'> <IoMdPhotos className='icon'/>Galerie</a>
                 <a href="#services" className='lienNav'> <MdCleaningServices className='icon'/>Services</a>
                 <a href="#contacter" className='lienNav'><IoMdMail className='icon'/>Contacter</a>
-            </div>       
+                   
             <div className='btnAuth'>
                 <div className='login1'>
                     <p>Inscription</p>
@@ -30,6 +30,7 @@ function Navbar(){
                  <div className='login2'>
                     <p>Connexion</p>
                 </div>
+            </div>
             </div>
         </nav>
 
