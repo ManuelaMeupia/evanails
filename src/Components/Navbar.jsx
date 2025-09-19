@@ -23,14 +23,14 @@ function Navbar(){
                 <a href="#services" className='lienNav'> <MdCleaningServices className='icon'/>Services</a>
                 <a href="#contacter" className='lienNav'><IoMdMail className='icon'/>Contacter</a>
                    
-            <div className='btnAuth'>
-                <div className='login1'>
-                    <p>Inscription</p>
+                <div className='btnAuth'>
+                    <div className='login1'>
+                        <p>Inscription</p>
+                    </div>
+                    <div className='login2'>
+                        <p>Connexion</p>
+                    </div>
                 </div>
-                 <div className='login2'>
-                    <p>Connexion</p>
-                </div>
-            </div>
             </div>
         </nav>
 

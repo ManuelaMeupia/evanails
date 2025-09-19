@@ -10,273 +10,273 @@ function MenuLateral(){
             nom:'Construction gel',
             image:'/img/img1.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'or, rose, blanc'
         },
        {
             id:2,
             nom:'Construction gel',
             image:'/img/img2.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'noir, rose, marron'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img3.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'blanc, noir, rose'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img4.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'rouge, marron, noir, rose'
         },
         {
             id:1,
             nom:'Construction gel',
             image:'/img/img5.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'or, marron'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img6.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'rouge, blanc'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img7.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'rouge, blanc, rose'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img8.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'rouge, noir'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img9.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'blanc, violet'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img10.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'noir'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img11.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'blanc, rose'
         },
         {
             id:1,
             nom:'Construction gel',
             image:'/img/img12.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'orange'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img13.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'blanc, rose'
         },
         {
             id:1,
             nom:'Construction gel',
             image:'/img/img14.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'bleu, blanc, rose'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img15.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'bleu, blanc, rose'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img16.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'jaune, bleu, vert, rouge'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img17.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'marron, orange'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img18.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'blanc, rose'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img19.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'noir'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img20.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'orange, or'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img21.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'noir'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img22.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'orange, vert'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img23.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'rouge, vert'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img24.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'noir, rouge'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img25.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'orange, vert'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img26.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'marron, noir'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img27.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'marron'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img28.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'rouge'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img29.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'jaune, orange, rose'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img30.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'or, rose, noir'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img31.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'or, marron, rose'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img32.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'orange, vert, blanc'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img33.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'rouge, blanc'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img34.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'orange, marron'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img35.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'noir, rose'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img36.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'rouge'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img37.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'blanc, noir, vert'
         },
        {
             id:1,
             nom:'Construction gel',
             image:'/img/img38.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'blanc, or'
         },
          {
             id:1,
             nom:'Construction gel',
             image:'/img/img39.jpg',
             prix: 5000,
-            couleur: 'or, rose'
+            couleur: 'blanc, rose'
         },
        
     ]
@@ -287,23 +287,25 @@ function MenuLateral(){
        <div>
             <section id="accueil" className='accueilStyle'>
                     <br /><br /><br /><br /><br /><br />
-                    <p className='welcomeSection1'> <h1> Hello! Bienvenue dans le site officiel de EvaNails</h1></p><br /><br />
-                    <p className='texte1'>Découvrez l'art de la beauté des ongles dans une ambiance chaleureuse et raffinée. Chez EvaNails, nous transformons vos mains et pieds en de véritables œuvres d'art avec un savoir-faire exceptionnel et des produits de qualité supérieure.</p>
-                    <div className='rdv'>Prendre rendez-vous</div>
+                    <div className='divAccueil'>
+                        <p className='welcomeSection1'> <h1>Bienvenue dans le site officiel de <b style={{color:"orange", fontFamily:"Lucida Handwriting"}}>EvaNails</b></h1></p><br /><br />
+                        <p className='texte1'>Découvrez l'art de la beauté des ongles dans une ambiance chaleureuse et raffinée. Chez EvaNails, nous transformons vos mains et pieds en de véritables œuvres d'art avec un savoir-faire exceptionnel et des produits de qualité supérieure.</p>
+                        <div className='rdv'>Prendre rendez-vous</div>
+                    </div>
                 <br /><br /><br /><br /><br /><br />
             </section>
 
             <section id="galerie" className='galerieStyle'>
-                <h1 className='galerieh1'>Galerie</h1>
+                <h1 className='galerieh1'>Galerie d'images</h1>
                 <div className="tableau-body">
                     {Galerie.map((nails) => (
                         <div key={nails.id} className="tableau-row">
                             <div className="tableauImg">
                                 <img src={nails.image} alt={nails.nom} className='imgStyle' />
                             </div>
-                            <div className="tableau-cell">{nails.nom}</div>
-                            <div className="tableau-cell">{nails.prix} FCFA</div>
-                            <div className="tableau-cell">{nails.couleur}</div>
+                            <div className="details" style={{color: "rgb(251, 59, 91)", marginTop: "7px",fontWeight:"bold"}}>{nails.nom}</div>
+                            <div className="details" style={{fontWeight:"bold"}}>{nails.prix} FCFA</div>
+                            <div className="details" style={{color:"#807373ff", flexWrap:"wrap"}}>{nails.couleur}</div>
                         </div>
                     ))}
                 </div>
@@ -313,7 +315,7 @@ function MenuLateral(){
                 <h1 className='serviceh1'>Services</h1>
                 <div className='serviceStyle'>
                      <div className='service'> 
-                        <h3>Pedicure</h3>
+                        <h3 className='servicesTitres'>Pedicure</h3>
                     </div>
                     <div className='service'> 
                         <h3>Manicure</h3>
