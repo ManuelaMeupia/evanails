@@ -25,10 +25,10 @@ function Navbar(){
                    
                 <div className='btnAuth'>
                     <div className='login1'>
-                        <p>Inscription</p>
+                        <p style={{marginTop:"4px"}}>Inscription</p>
                     </div>
                     <div className='login2'>
-                        <p>Connexion</p>
+                        <p style={{marginTop:"4px"}}>Connexion</p>
                     </div>
                 </div>
             </div>

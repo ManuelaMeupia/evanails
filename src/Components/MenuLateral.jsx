@@ -1,116 +1,31 @@
-import React from 'react';
 import './MenuLateralStyle.css';
 
+import {FaWhatsappSquare} from 'react-icons/fa';
 
 function MenuLateral(){
 
      const Galerie = [
+        {id:1, nom:'Construction gel', image:'/img/img1.jpg', prix: 5000, couleur: 'or, rose, blanc'},
+        {id:2, nom:'Construction gel', image:'/img/img2.jpg', prix: 5000, couleur: 'noir, rose, marron'},
+        {id:1, nom:'Construction gel', image:'/img/img3.jpg', prix: 5000, couleur: 'blanc, noir, rose'},
+        {id:1, nom:'Construction gel', image:'/img/img4.jpg', prix: 5000, couleur: 'rouge, marron, noir, rose'},
+        {id:1, nom:'Construction gel', image:'/img/img5.jpg', prix: 5000, couleur: 'or, marron'},
+        {id:1, nom:'Construction gel', image:'/img/img6.jpg', prix: 5000, couleur: 'rouge, blanc'},
+        {id:1, nom:'Construction gel', image:'/img/img7.jpg', prix: 5000, couleur: 'rouge, blanc, rose'},
+        {id:1, nom:'Construction gel', image:'/img/img8.jpg', prix: 5000, couleur: 'rouge, noir'},
+        {id:1, nom:'Construction gel', image:'/img/img9.jpg', prix: 5000, couleur: 'blanc, violet'},
+        {id:1, nom:'Construction gel', image:'/img/img10.jpg', prix: 5000, couleur: 'noir'},
+        {id:1, nom:'Construction gel', image:'/img/img11.jpg', prix: 5000, couleur: 'blanc, rose'},
+        {id:1, nom:'Construction gel', image:'/img/img12.jpg', prix: 5000, couleur: 'orange'},
+        {id:1, nom:'Construction gel', image:'/img/img13.jpg', prix: 5000, couleur: 'blanc, rose'},
+        {id:1, nom:'Construction gel', image:'/img/img14.jpg', prix: 5000, couleur: 'bleu, blanc, rose'},
         {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img1.jpg',
-            prix: 5000,
-            couleur: 'or, rose, blanc'
-        },
-       {
-            id:2,
-            nom:'Construction gel',
-            image:'/img/img2.jpg',
-            prix: 5000,
-            couleur: 'noir, rose, marron'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img3.jpg',
-            prix: 5000,
-            couleur: 'blanc, noir, rose'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img4.jpg',
-            prix: 5000,
-            couleur: 'rouge, marron, noir, rose'
-        },
-        {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img5.jpg',
-            prix: 5000,
-            couleur: 'or, marron'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img6.jpg',
-            prix: 5000,
-            couleur: 'rouge, blanc'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img7.jpg',
-            prix: 5000,
-            couleur: 'rouge, blanc, rose'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img8.jpg',
-            prix: 5000,
-            couleur: 'rouge, noir'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img9.jpg',
-            prix: 5000,
-            couleur: 'blanc, violet'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img10.jpg',
-            prix: 5000,
-            couleur: 'noir'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img11.jpg',
-            prix: 5000,
-            couleur: 'blanc, rose'
-        },
-        {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img12.jpg',
-            prix: 5000,
-            couleur: 'orange'
-        },
-       {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img13.jpg',
-            prix: 5000,
-            couleur: 'blanc, rose'
-        },
-        {
-            id:1,
-            nom:'Construction gel',
-            image:'/img/img14.jpg',
-            prix: 5000,
-            couleur: 'bleu, blanc, rose'
-        },
-       {
             id:1,
             nom:'Construction gel',
             image:'/img/img15.jpg',
             prix: 5000,
-            couleur: 'bleu, blanc, rose'
-        },
-       {
+            couleur: 'bleu, blanc, rose'},
+        {
             id:1,
             nom:'Construction gel',
             image:'/img/img16.jpg',
@@ -285,6 +200,10 @@ function MenuLateral(){
     return (
         
        <div>
+
+            <div className="div-btnWa">
+                    <a href="https://wa.me/+237654872263"> <FaWhatsappSquare className='whatsapp'/></a>
+            </div>
             <section id="accueil" className='accueilStyle'>
                     <br /><br /><br /><br /><br /><br />
                     <div className='divAccueil'>
@@ -331,21 +250,22 @@ function MenuLateral(){
             </section>
 
             <section id="contacter" className='contacterStyle'>
-                <h1>Nous contacter</h1>
+                <h1 className='titreSection4'>Nous contacter</h1>
                 <div className='newspaper'>
                     <label htmlFor="" >Nom et Prenom:</label>
                     <input type="text" required/>
                     <label htmlFor="">Adresse mail:</label>
                     <input type="text" required/>
                     <label htmlFor="">Numero de telephone:</label>
-                    <input type="text" required/>
+                    <input type="text" required/> <br />
                     <label htmlFor="">Votre message:</label>
                     <textarea name="" id=""></textarea>
                     <button type="button">Envoyer</button>
                     <p>Nous recevrons votre demande</p>
                 </div>
+                
             </section>
-
+               
             
         </div>
     )

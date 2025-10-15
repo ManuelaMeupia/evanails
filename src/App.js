@@ -12,6 +12,7 @@ function App() {
        <Navbar />
       <main>
         <MenuLateral />
+        
       </main>
       
       <Routes>

@@ -16,8 +16,8 @@
 }
 .texte1{
     display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
     text-align: center;
     color: #FFFFFF;
     font-size: 25px;
@@ -110,15 +110,22 @@
     box-shadow: 10px 10px 20px rgba(249, 87, 162, 0.432);
 }
 .contacterStyle{
-    display: flex;
+    /* display: flex; */
     border: 3px solid rgb(255, 86, 145);
+}
+.titreSection4{
+    font-family: 'Lucida Handwriting';
+    text-align: center;
+    color:rgb(251, 59, 91)
+}
+.newspaper{
+    margin-top: 40px;
 }
 
 .galerieStyle{
     background-color: rgb(250, 229, 234);
 }
 .galerieh1{
-    margin-top: 15px;
     font-family: 'Lucida Handwriting';
     text-align: center;
     color:rgb(251, 59, 91)
@@ -128,6 +135,18 @@
     font-family: 'Lucida Handwriting';
 }
 
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    color: #007d00;
+    margin-top: 450px;
+    font-size: 3.5rem;
+}
+.whatsapp:hover{
+    transform: scale(1.05);
+    color: #084208;
+    /* z-index: 1000; */
+}
 
 
 

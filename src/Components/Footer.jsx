@@ -1,6 +1,10 @@
 
 
-import './FooterStyle.css'
+import './FooterStyle.css';
+
+import {AiFillHome} from 'react-icons/ai';
+import {IoMdPhotos, IoMdMail } from 'react-icons/io';
+import {MdCleaningServices } from 'react-icons/md';
 
 function Footer (){
     return (
@@ -16,6 +20,12 @@ function Footer (){
                 <p>Instagram</p>
                 <p>WhatsApp</p>
                 <p>Snapchat</p>
+            </div>
+            <div className='liensRapides'>
+                <a href="#accueil"  className='lienNav'> <AiFillHome className='icon'/>Accueil</a><br />
+                <a href="#galerie" className='lienNav'> <IoMdPhotos className='icon'/>Galerie</a><br />
+                <a href="#services" className='lienNav'> <MdCleaningServices className='icon'/>Services</a><br />
+                <a href="#contacter" className='lienNav'><IoMdMail className='icon'/>Contacter</a><br />
             </div>
         </footer>
     )
