@@ -7,7 +7,7 @@ import axios from 'axios';
 
 function MenuLateral(){
 
-    const API_URL = 'https://meups.lovestoblog.com/form_contact_api.php'; // ⚠️ Assurez-vous d'utiliser form_contact_api.php et non api_newsletter.php
+    const API_URL = 'https://meups.lovestoblog.com/api_newsletter.php'; // ⚠️ Assurez-vous d'utiliser form_contact_api.php et non api_newsletter.php
     
     const [formData, setFormData] = useState({
         fullName: '',
