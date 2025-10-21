@@ -2,7 +2,7 @@ import './MenuLateralStyle.css';
 
 import {FaWhatsappSquare} from 'react-icons/fa';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 function MenuLateral(){
