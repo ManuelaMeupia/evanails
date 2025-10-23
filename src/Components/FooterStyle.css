@@ -1,6 +1,80 @@
-.foot{
+
+.foot {
     background-color: pink;
+    color: #f06292; 
+    font-weight: 700;
+    padding: 2.5rem 1rem 1rem;
     display: flex;
-    /* justify-content: space-between; */
-    gap: 12rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info, .rs, .liensRapides {
+    min-width: 250px;
+    text-align: left;
+    font-size: 16px;
+    padding: 0 10px;
+    flex-grow: 1;
+}
+
+
+.foot h3 {
+    color: orangered; 
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff5722;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.liensRapides a {
+    color: #f06292;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+    margin: 8px 0;
+}
+
+.liensRapides a:hover {
+    color: #f90341;
+}
+
+
+.rs p {
+    margin: 8px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #f06292;
+    font-weight: 700;
+    transition: color 0.3s ease;
+    
+}
+
+.rs svg {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #f06292; 
+    transition: color 0.3s ease;
+}
+.rs p:hover {
+    color: #f90341;
+}
+
+.rs p:hover svg {
+    color: #f90341;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 9, 87);
+    font-size: 0.9rem;
+    color: #000000;
 }

@@ -21,22 +21,27 @@ function MenuLateral(){
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
+   // Dans MenuLateral.jsx
+
     const handleSubmit = async (e) => {
         e.preventDefault(); 
         setSubmissionMessage("Envoi en cours..."); 
-    
+        
+        // 🚨 CHANGEMENT CRITIQUE: Sérialiser les données pour éviter le OPTIONS preflight
+        const params = new URLSearchParams();
+        for (const key in formData) {
+            params.append(key, formData[key]);
+        }
+
         try {
-            const response = await axios.post(API_URL, formData, {
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-            });
+            // Envoi des données sérialisées (params) SANS l'en-tête application/json
+            const response = await axios.post(API_URL, params);
             
             if (response.data.success) {
-                setSubmissionMessage(response.data.message); // Affiche le message de succès du PHP
-                setFormData({ fullName: '', email: '', phone: '', message: '' }); // Réinitialise le formulaire
+                 setSubmissionMessage(response.data.message); 
+                 setFormData({ fullName: '', email: '', phone: '', message: '' }); 
             } else {
-                setSubmissionMessage(response.data.message); // Affiche le message d'erreur du PHP
+                 setSubmissionMessage(response.data.message); 
             }
 
         } catch (error) {
@@ -277,12 +282,15 @@ function MenuLateral(){
                             <p>gommage</p>
                             <p>Massage</p>
                             <p>pedicure chaude et froide</p> 
-                            <p>je vais faire les recherches ici...</p>
                             </ul>
                         </p>
                     </div>
                     <div className='service'> 
                         <h3>Manicure</h3>
+                        <p>Manicure classique</p>
+                        <p>Manicure francaise</p>
+                        <p>Nail art</p>
+                        <p>Manicure semipermanante</p>
                     </div>
                     <div className='service'> 
                         <h3>Coiffure</h3>
