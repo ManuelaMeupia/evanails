@@ -15,7 +15,7 @@ function Navbar(){
     return (
         <nav className="navStyle">
             <img src="img/logo1.png" alt="" className='logoStyle'/>
-            <span className='titre'>EvaNails 💅</span>
+            {/* <span className='titre'>EvaNails 💅</span> */}
             <button className="btnMenu" onClick={Menu}>☰</button>
             <div className={`lienMenu ${isOpen ? 'open' : ''}`}>
                 <a href="#accueil"  className='lienNav'> <AiFillHome className='icon'/>Accueil</a>

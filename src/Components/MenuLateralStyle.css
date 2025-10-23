@@ -84,13 +84,15 @@
     margin-top: 15px;
     font-family: 'Lucida Handwriting';
     text-align: center;
-    color:rgb(251, 59, 91)
+    color:rgb(251, 59, 91);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.services{  /* la section entiere */
+.services{ 
     background-color: rgb(255, 255, 255);
+    padding: 30px 15px 50px;
 }
-.service{ /*les div roses*/
+.service{ 
     background-color: pink;
     width: 330px;
     height: 300px;
@@ -102,8 +104,11 @@
     
 };
 
-.servicesTitres{
-    font-family: 'Lucida Handwriting';
+.liste{
+    list-style-type: none; /* Enlève les puces par défaut */
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
 }
 .service:hover{
     transform:scale(1.05);
